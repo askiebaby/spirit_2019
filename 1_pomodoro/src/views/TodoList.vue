@@ -23,11 +23,11 @@
 </template>
 
 <script>
-import Calendar from "@/components/Calendar.vue";
+import Calendar from '@/components/Calendar.vue';
 
 export default {
-  name: "Todolist",
-  components: { Calendar }
+  name: 'Todolist',
+  components: { Calendar },
 };
 </script>
 

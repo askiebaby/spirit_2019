@@ -37,6 +37,7 @@ export default {
 .calendar {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 15px;
   &__day {
     flex-basis: calc(100% / 7);
     padding: 10px;

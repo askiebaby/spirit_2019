@@ -91,5 +91,6 @@ export default {
   box-shadow: 0px -1px 7px -3px $deep-gray, 0px 3px 8px -9px $deep-gray;
   background-color: $primary-color;
   margin-bottom: 20px;
+  min-height: 360px;
 }
 </style>

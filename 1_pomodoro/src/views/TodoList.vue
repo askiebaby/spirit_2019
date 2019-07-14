@@ -1,6 +1,6 @@
 <template>
   <div :class="$style.todo">
-    <section class="calender">calender</section>
+    <Calendar></Calendar>
     <section class="todolist">
       <div>
         <div :class="$style.todolist__items">
@@ -23,8 +23,11 @@
 </template>
 
 <script>
+import Calendar from "@/components/Calendar.vue";
+
 export default {
-  name: 'Todolist',
+  name: "Todolist",
+  components: { Calendar }
 };
 </script>
 

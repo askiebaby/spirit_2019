@@ -7,16 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: $black;
-
-  .router-link-exact-active {
-    // background-color: $light-orange;
-    // color: red;
-    // box-shadow: inset 0px -4px 9px -6px $deep-gray;
-  }
 }
 
 a {
   font-weight: bold;
   color: $deep-gray;
-
 }

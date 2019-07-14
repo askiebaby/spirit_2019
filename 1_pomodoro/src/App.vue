@@ -5,14 +5,14 @@
         <div :class="$style.pomodoro__tabs">
           <router-link
             to="/todoList"
-            :class="[$style.tab, {[$style.active]: $route.name !== 'TodoList'}]"
+            :class="[$style.tab, {[$style['tab--active']]: $route.name !== 'TodoList'}]"
             exact
           >
             <img src="./assets/images/list.png" />To-do list
           </router-link>
           <router-link
             to="/dashboard"
-            :class="[$style.tab, {[$style.active]: $route.name !== 'Dashboard'}]"
+            :class="[$style.tab, {[$style['tab--active']]: $route.name !== 'Dashboard'}]"
           >
             <img src="./assets/images/bar-chart.png" />Dashboard
           </router-link>
@@ -71,9 +71,8 @@ export default {
       box-shadow: -3px -4px 6px -6px $deep-gray, 5px -3px 6px -7px $deep-gray;
       background-color: $primary-color;
 
-      &.active {
+      &--active {
         background-color: $light-orange;
-        color: red;
         box-shadow: inset 0px -4px 9px -7px $deep-gray;
       }
 

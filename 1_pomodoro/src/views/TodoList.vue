@@ -1,4 +1,4 @@
-<template>
+g<template>
   <div :class="$style.todo">
     <Calendar></Calendar>
     <section :class="$style.todolist">
@@ -29,6 +29,9 @@ import Calendar from '@/components/Calendar.vue';
 
 export default {
   name: 'Todolist',
+  created() {
+    console.log(this.$style.items);
+  },
   data() {
     return {
       Todos: [],

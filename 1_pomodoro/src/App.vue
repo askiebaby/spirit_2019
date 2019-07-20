@@ -49,7 +49,7 @@ export default {
   min-width: 320px;
   max-width: 991px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 120px 0;
   flex: 1 1 auto;
 
   .flexBasis_large {

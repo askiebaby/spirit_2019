@@ -25,15 +25,15 @@
   </div>
 </template>
 <script>
-import AlarmClock from '@/components/AlarmClock';
-import FinishTomatoes from '@/components/FinishTomatoes';
+import AlarmClock from "@/components/AlarmClock";
+import FinishTomatoes from "@/components/FinishTomatoes";
 
 export default {
-  name: 'pomodoro',
+  name: "pomodoro",
   components: {
     AlarmClock,
-    FinishTomatoes,
-  },
+    FinishTomatoes
+  }
 };
 </script>
 
@@ -86,11 +86,12 @@ export default {
 
 .todo {
   position: relative;
-  padding: 25px 15px 15px;
+  padding: 35px 20px 20px;
   border-radius: 0 0 10px 10px;
   box-shadow: 0px -1px 7px -3px $deep-gray, 0px 3px 8px -9px $deep-gray;
   background-color: $primary-color;
   margin-bottom: 20px;
-  min-height: 360px;
+  min-height: 366px;
 }
 </style>
+

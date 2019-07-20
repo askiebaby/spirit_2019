@@ -25,19 +25,19 @@ g<template>
 </template>
 
 <script>
-import Calendar from '@/components/Calendar.vue';
+import Calendar from "@/components/Calendar.vue";
 
 export default {
-  name: 'Todolist',
+  name: "Todolist",
   created() {
     console.log(this.$style.items);
   },
   data() {
     return {
-      Todos: [],
+      Todos: []
     };
   },
-  components: { Calendar },
+  components: { Calendar }
 };
 </script>
 
@@ -50,7 +50,7 @@ export default {
   padding: 15px;
   background-color: $white;
   border-radius: 5px;
-  min-height: 230px;
+  min-height: 255px;
 }
 
 /* 顯示任務區塊 */

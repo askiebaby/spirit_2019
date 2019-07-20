@@ -19,6 +19,6 @@ git commit -m 'deploy'
 
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push git@github.com:askiebaby/spirit_2019.git master:master
+git push git@github.com:askiebaby/spirit_2019.git master:week1/pomodoro
 
 cd -

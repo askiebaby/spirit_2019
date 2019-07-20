@@ -25,19 +25,16 @@ g<template>
 </template>
 
 <script>
-import Calendar from "@/components/Calendar.vue";
+import Calendar from '@/components/Calendar.vue';
 
 export default {
-  name: "Todolist",
-  created() {
-    console.log(this.$style.items);
-  },
+  name: 'Todolist',
   data() {
     return {
-      Todos: []
+      Todos: [],
     };
   },
-  components: { Calendar }
+  components: { Calendar },
 };
 </script>
 

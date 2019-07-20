@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/spirit_2019/1_pomodoro/precache-manifest.65869d1ba557cbb7b41345859892682c.js"
+  "/spirit_2019/pomodoro/precache-manifest.9cfc118a118ab95a0e770a8f3d189cfa.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "1_pomodoro"});

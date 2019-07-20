@@ -44,7 +44,6 @@ export default {
 
       // 初始值：第一個要從 90度 開始減
       const rotateAngle = 90 - timeIndex * eachAngle;
-      console.log(eachAngle, rotateAngle);
 
       // 回傳 style 物件
       return { transform: `rotate(${rotateAngle}deg)` };

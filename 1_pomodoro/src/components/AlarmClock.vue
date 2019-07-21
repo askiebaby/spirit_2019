@@ -32,9 +32,12 @@ export default {
   },
   computed: {
     reversePamodoroTimes() {
-      const reversePamodoroTimes = [];
-      this.pamodoroTimes.forEach(time => reversePamodoroTimes.unshift(time));
-      return reversePamodoroTimes;
+      // 冗長的寫法
+      // const reversePamodoroTimes = [];
+      // this.pamodoroTimes.forEach(time => reversePamodoroTimes.unshift(time));
+      // return reversePamodoroTimes;
+      // 精簡的寫法
+      return this.pamodoroTimes.reduce((acc, result) => [result, ...acc], []);
     },
   },
   methods: {

@@ -51,6 +51,9 @@ export default {
       // 回傳 style 物件
       return { transform: `rotate(${rotateAngle}deg)` };
     },
+    getIsFirstOne(timeIndex) {
+      return timeIndex === 0;
+  },
   },
 };
 </script>
@@ -102,6 +105,10 @@ export default {
     left: 20%;
     transform: translate(0px, -50%);
   }
+
+    &--first {
+      color: #666;
+    }
 }
 
 .time--active {

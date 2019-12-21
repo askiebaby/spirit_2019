@@ -2,10 +2,10 @@
   <section :class="$style.container">
     <section :class="$style.times">
       <div
-        :class="$style.time"
+        :class="[$style.time, { [$style['time--first']]: getIsFirstOne(index) }]"
         v-for="(reversePamodoroTime, index) in reversePamodoroTimes"
         :style="timeRotate(index)"
-        :key="reversePamodoroTime.index"
+        :key="index"
       >{{ reversePamodoroTime}}</div>
     </section>
     <section :class="$style.functions">
@@ -107,7 +107,7 @@ export default {
     }
 
     &--first {
-      color: #666;
+      color: #333;
     }
   }
 

@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/spirit_2019/pomodoro/robots.txt"
   },
   {
-    "revision": "040b1a2ead2d8ce66b26",
-    "url": "/spirit_2019/pomodoro/js/chunk-vendors.3e45e1d2.js"
+    "revision": "0e080af2eff4d4bea35d",
+    "url": "/spirit_2019/pomodoro/js/chunk-vendors.88f9c622.js"
   },
   {
     "revision": "21c3a42da1a23cb9338b",
     "url": "/spirit_2019/pomodoro/js/chunk-32b52b9e.9e35d372.js"
   },
   {
-    "revision": "a67b2b3e4f09b653ead5",
-    "url": "/spirit_2019/pomodoro/js/app.e77f240b.js"
+    "revision": "accad9156a46b71047e3",
+    "url": "/spirit_2019/pomodoro/js/app.663e73e5.js"
   },
   {
-    "revision": "f3dfb12d15f4f43b560bdcd26dc60dcf",
+    "revision": "68a0b3656a396d03a6a3903fe7a06e78",
     "url": "/spirit_2019/pomodoro/index.html"
   },
   {
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/spirit_2019/pomodoro/css/chunk-32b52b9e.81b9f419.css"
   },
   {
-    "revision": "a67b2b3e4f09b653ead5",
-    "url": "/spirit_2019/pomodoro/css/app.3c1707c2.css"
+    "revision": "accad9156a46b71047e3",
+    "url": "/spirit_2019/pomodoro/css/app.668b4a12.css"
   }
 ];
